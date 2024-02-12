@@ -38,9 +38,9 @@ foreach ($rows as $key => $value) {
     $tenders[$key]['Documents'] = $documents;
 }
 
-// echo '<pre>';
-// print_r($tenders);
-// echo '</pre>';
+echo '<pre>';
+print_r($tenders);
+echo '</pre>';
 
 curl_close($curl);
 
